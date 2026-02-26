@@ -1,0 +1,19 @@
+{
+  "name": "campx-contracts",
+  "version": "1.0.0",
+  "description": "Shared DTO contracts for all campx microservices and API gateway",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1"
+  },
+  "license": "UNLICENSED"
+}
