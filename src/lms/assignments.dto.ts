@@ -49,6 +49,10 @@ export class CreateAssignmentDto {
   @IsDate()
   @Type(() => Date)
   submissionEndDate?: Date;
+
+   @IsOptional()
+   @IsString()
+   priority?: string;
 }
 
 export class UpdateAssignmentDto {
