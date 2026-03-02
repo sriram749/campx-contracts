@@ -4,7 +4,6 @@ class TestingDto {
   @IsString()
   name: string;
 
-  @IsOptional() 
   @IsString()
   description?: string;
 
