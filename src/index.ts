@@ -2,7 +2,7 @@
 export * from './lms';
 
 // Payments contracts
-export * from './payments/fee-types.dto';
+export * from './payments';
 
 // Academic contracts
-export * from './academic/courses.dto';
+export * from './academic';
