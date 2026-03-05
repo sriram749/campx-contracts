@@ -1,6 +1,5 @@
 // LMS contracts
-export * from './lms/assignments.dto';
-export * from './lms/quizzes.dto';
+export * from './lms';
 
 // Payments contracts
 export * from './payments/fee-types.dto';
