@@ -14,7 +14,6 @@ export class StudentAssignmentFileUploadDto {
   @IsString()
   assignmentId: string;
 }
-
 export class StudentAssignmentResponsePostDto {
   @IsNotEmpty()
   @IsString()
